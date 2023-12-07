@@ -2,7 +2,8 @@
 
 - 🟢 Flex
     - ✔️ Pricing Page 
-    - ✔️ About Page (Left Image, Right Text)+(What do we offer)
+    - ✔️ About Page (Left Image, Right Text)
+    - ◼️ What do we offer
     - ◼️ Profile Displays
     - ◼️ **Resume**
 - ⚪ Grid
