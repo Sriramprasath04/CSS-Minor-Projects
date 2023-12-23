@@ -1,0 +1,104 @@
+<!-- ways of creating div's
+            1) normal method creating every div manually
+            2) .container>.box*8  
+                => it creats a 8 div class named boxes insidea a div named container 
+            3) ways to write content inside the div while creating it
+                .container>.box{content}*4
+                    <div class="container">
+                        <div class="box">content</div>
+                        <div class="box">content</div>
+                        <div class="box">content</div>
+                        <div class="box">content</div>
+                    </div>
+                
+                * for numbering we use the '$' symbol
+                    .container>.box{$}*4
+                        <div class="container">
+                            <div class="box">1</div>
+                            <div class="box">2</div>
+                            <div class="box">3</div>
+                            <div class="box">4</div>
+                        </div>
+
+                * we can also specify the numbering 
+                    .container>.box{$@4}*4
+                        <div class="container">
+                            <div class="box">4</div>
+                            <div class="box">5</div>
+                            <div class="box">6</div>
+                            <div class="box">7</div>
+                        </div>
+  -->
+
+    <!-- .container>.box{box-$}*8 -->
+    <!-- .container>.box#box-${box-$}*8 -->
+    <div class="container">
+        <div class="box" id="box-1">box-1</div>
+        <div class="box" id="box-2">box-2</div>
+        <div class="box" id="box-3">box-3</div>
+        <div class="box" id="box-4">box-4</div>
+        <div class="box" id="box-5">box-5</div>
+        <div class="box" id="box-6">box-6</div>
+        <div class="box" id="box-7">box-7</div>
+        <div class="box" id="box-8">box-8</div>
+    </div>
+    <!-- css flex contaainer properties
+        > flex-direction
+            . row (default) |1234   |
+            . row-reverse   |   4321|
+            . column        
+            . column-reverse
+        > flex-wrap
+            . nowrap (default)
+            . wrap
+            . wrap-reverse
+        > flex-flow
+            -> it is a shortand property for setting both flex-direction and flex-wrap properties.
+            Example: flex-flow: row wrap;
+        > justify-content
+            -> it helps to align items in the main axis (rows)
+                . center
+                . flex-start
+                . flex-end
+                . space-around
+                . space-between
+                . space-evenly
+        > align-items
+            -> it is used to align the flex items in cross-axis
+                . center
+                . flex-start
+                . flex-end
+                . stretch (default)
+                . baseline
+        > align-content
+            -> used to align the  content inside the flex-box          
+                . center
+                . flex-start
+                . flex-end
+                . space-around
+                . space-between
+    -->
+    
+    <!-- CSS flex items properties
+        > order
+            . specifies the order of the flex items
+            . default value is 0.
+            Example: order: 1;
+        > flex-grow
+            . specifies how much a flex item will shrink relative to the rest of the items.
+            . default value is 0.
+        > flex-shrink
+            . specifies how much a flex item will shrink relative to teh rest of the items.
+            . defalut value is 1.
+            . as the value increases the time taken to shrink decreses.
+        > flex-basis
+            . it specifies the initial length of the flex item.
+        > flex
+            . it is the shortend property for the flex-grow, flex-shrink and flex-basis properties.
+            flex: felx-grow flex-shrink flex-basis;
+            Example: flex: 0 2 150px;(not-grow shrink-doubly size-150px)
+        > align-self
+            . it specifies the alignment for the selected items inside flexible container.
+            . it overrides the default alignment set by the container's align-items property.
+            Example: align-self: stretch; 
+    -->
