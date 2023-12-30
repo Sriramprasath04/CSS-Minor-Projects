@@ -1,5 +1,7 @@
 # CSS-Minor-Projects
 
+- 🟢 Box Model
+    - ✔️ Rothko Painting 
 - 🟢 Flex
     - ✔️ Pricing Page 
     - ✔️ About Page (Left Image, Right Text)
