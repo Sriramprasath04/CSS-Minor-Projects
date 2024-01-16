@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="sticky">CSS Posotioning</h2>
+    <div class="box" id="static">Static</div> 
+    <div class="div">
+        <h3>Static</h3>
+        <li>default</li>
+        <li> Position properties like top,right,.. not works here.</li>
+    </div>
+    <div class="box" id="absolute-1">Absolute-1</div>
+    <div class="container">
+        <div class="box" id="absolute-2">Absolute-2</div>
+    </div>
+    <div class="div">
+        <h3>Absolute</h3>
+        <li>Losses its positional space and changes it's position according to its parent position</li>
+        <li>In case-1 (Absolute-1), it's parent is body</li>
+        <li>In case-2 (Absolute-2), it's parent is a div ( container has to hold the property of relative )</li>
+    </div>
+    <div class="box" id="relative-1">Relative-1</div>
+    <div class="container">
+        <div class="box" id="relative-2">Relative-2</div>
+    </div>
+    <div class="div">
+        <h3>Relative</h3>
+        <li>Holds its positional space and changes it's position according to its origin</li>
+        <li>In case-1 (Relative-1), it has moven to left 100px</li>
+        <li>In case-2 (Relative-2), it  has moven to 20px top, 100px left from its origin</li>
+    </div>
+    <div class="div">
+        <h3>Fixed</h3>
+        <li>Losses its positional space and changes it's position according to its body not regording to its parent position</li>
+        <li>In case-1 (Fixed-1), it has moven to 500px top and 30px right regardless to its origin</li>
+        <li>In case-2 (Fixed-2), it  has moven to 20px top, 110px right regardless to its origin</li>
+    </div>
+    <div class="box" id="fixed">Fixed-1</div>
+    <div class="container">
+        <div class="box" id="fixed-2">Fixed-2</div>
+    </div>
+
+    <div class="div">
+        <h3>Sticky</h3>
+        <li>Stays in its positional space unless it reaches/goes-down it changes it's position according to body</li>
+        <li>Here the title "CSS Position" shows the sticky property.</li>
+    </div>
+</body>
+</html>
