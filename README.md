@@ -1,7 +1,7 @@
 # CSS-Minor-Projects
 
 - 🟢 CSS Positioning
-    - ✔️ <a href="">Showcase the Positioning properties with a page</a>
+    - ✔️ <a href="https://github.com/Sriramprasath04/CSS-Minor-Projects/tree/main/Positioning%20Properties">Showcase the Positioning properties with a page</a>
 - 🟢 Box Model
     - ✔️ <a href="https://github.com/Sriramprasath04/CSS-Minor-Projects/tree/main/Rothko%20Painting">Rothko Painting</a> 
 - 🟢 Flex
