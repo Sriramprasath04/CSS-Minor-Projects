@@ -12,5 +12,5 @@
     - ◼️ **Resume** (Major Project)</a>
 - 🟢 Grid
     - ◼️ Calculator Layout
-    - ✔️ Make a Layout ( Photolio )
+    - ✔️ <a href="https://github.com/Sriramprasath04/CSS-Minor-Projects/tree/main/Photolio">Make a Layout ( Photolio )</a>
     - ◼️ Make the Layout Responsive  
