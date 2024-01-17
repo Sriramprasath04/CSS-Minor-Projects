@@ -12,4 +12,5 @@
     - ◼️ **Resume** (Major Project)</a>
 - ⚪ Grid
     - ◼️ Calculator Layout
-    - ◼️ Responsive Layouts 
+    - ✔️ Make a Layout 
+    - ◼️ Make the Layout Responsive  
