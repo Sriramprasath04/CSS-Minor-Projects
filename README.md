@@ -12,5 +12,5 @@
     - ◼️ **Resume** (Major Project)</a>
 - 🟢 Grid
     - ◼️ Calculator Layout
-    - ✔️ Make a Layout 
+    - ✔️ Make a Layout ( Photolio )
     - ◼️ Make the Layout Responsive  
